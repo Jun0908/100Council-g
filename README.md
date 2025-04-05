@@ -101,7 +101,7 @@ We would like to create **the society with decentralized value** by increasing *
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |                                      [100Council-movie](https://youtu.be/XuSDqN14ubM)|
 | Pitch Doc    |   [100Council-pitch](https://www.canva.com/design/DAGjP2tZzck/_lUG-VZT_5VezlCX8UkwxA/edit?utm_content=DAGjP2tZzck&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| Demo Site     |                                 [100Council-demo](https://kessy-front.vercel.app/)| 
+| Demo Site     |                                 [100Council-demo](https://100-council-frontend.vercel.app/)| 
 
 
 ## **References**  
