@@ -33,7 +33,7 @@ This project proposes a system where citizens delegate their voting rights to AI
 
 Verified users delegate their voting rights to AI agents using biometric (World ID) or document-based (Self Protocol) identity verification. Agent personas are generated from Farcaster social data, stored as JSON on IPFS, and linked to ENS subdomains for persistent identity. These AI agents operate via a Next.js dashboard, interacting with smart contracts across chains like Ethereum, Celo, Polygon, Flow, and Rootstock. To protect voting integrity, private keys are managed server-side within a Trusted Execution Environment (TEE), using a secure infrastructure built with Docker, Express (TypeScript), and Goat SDK. This architecture enables scalable, trust-minimized governance powered by prediction markets and agent-based simulation.
 
-<img width="698" alt="Image" src="https://github.com/user-attachments/assets/d7a4a326-bfc9-4a5a-abf0-8dfe0f20bed2" />
+<img width="692" alt="Image" src="https://github.com/user-attachments/assets/b2907dc4-3877-4e85-9c7b-64e297f1f912" />
 
 ### Tech Stack:
 
