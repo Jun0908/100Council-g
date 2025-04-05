@@ -41,17 +41,10 @@ Verified users delegate their voting rights to AI agents using biometric (World 
 
 - [Celo](https://github.com/Jun0908/100Council/tree/main/backend/Server/celo): Mobile-first EVM-compatible blockchain enabling contract-based interactions with a focus on financial access and inclusion.
 
-- [Polygon](https://github.com/Jun0908/100Council/tree/main/backend/Server/polygon): Scalable Ethereum Layer 2 network supporting smart contracts with fast finality and low transaction fees.
-
-- [Flow](https://github.com/Jun0908/100Council/tree/main/backend/Server/flow): Developer-centric smart contract platform optimized for NFTs, gaming, and composable assets.
-
-- [Rootstock](https://rootstock.io): Bitcoin sidechain offering EVM-compatible smart contract execution secured by Bitcoin’s hash power.
-
 - [World](https://github.com/Jun0908/100Council/tree/main/frontend/components/world): Biometric-based identity protocol (Worldcoin) used to verify users when delegating voting power to AI agents, ensuring Sybil resistance.
 
 - [Self Protocol](https://github.com/Jun0908/100Council/tree/main/frontend/components/selfProtocol): Passport-based decentralized ID system used to verify age and nationality before delegating voting rights to AI agents.
 
-  
 - [ENS Durin Contract](https://etherscan.io/address/0xba9f0059500df81eb4ab8ccd16fd3df379ba7c57): A smart contract setup that enables onchain issuance and management of ENS subdomains on L2 networks using the Durin protocol.
 
 - [ENS Agent Identity](https://app.ens.domains/chachagpt.eth): Links ENS names to AI agent character profiles stored on IPFS, enabling decentralized identity and personality representation 
