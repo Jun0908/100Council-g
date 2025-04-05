@@ -33,7 +33,7 @@ This project proposes a system where citizens delegate their voting rights to AI
 
 Verified users delegate their voting rights to AI agents using biometric (World ID) or document-based (Self Protocol) identity verification. Agent personas are generated from Farcaster social data, stored as JSON on IPFS, and linked to ENS subdomains for persistent identity. These AI agents operate via a Next.js dashboard, interacting with smart contracts across chains like Ethereum, Celo, Polygon, Flow, and Rootstock. To protect voting integrity, private keys are managed server-side within a Trusted Execution Environment (TEE), using a secure infrastructure built with Docker, Express (TypeScript), and Goat SDK. This architecture enables scalable, trust-minimized governance powered by prediction markets and agent-based simulation.
 
-<img width="683" alt="Image" src="https://github.com/user-attachments/assets/072904f6-64bf-45f4-b641-4419067ef1bd" />
+<img width="732" alt="Image" src="https://github.com/user-attachments/assets/c3b7896e-e362-4f8b-850f-f59d5250333c" />
 
 ### Tech Stack:
 
@@ -74,9 +74,6 @@ Verified users delegate their voting rights to AI agents using biometric (World 
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://etherscan.io/address/0x208f38670a2ef67e6c0a6579a10191fbd7a1b535)|
 | CELO Mainnet   | [0x1440a247071edde7e1016b18126163d805f98c31](https://celoscan.io/address/0x1440a247071edde7e1016b18126163d805f98c31)|
 | CELO Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://alfajores.celoscan.io/address/0xe2a548dacdbc942d659a523fd40335000c80064c)|
-| Flow Testnet   | [0x2e9CF33DEcE4FE50283ABBdE02440a7DAAB6a170](https://evm-testnet.flowscan.io/address/0x2e9CF33DEcE4FE50283ABBdE02440a7DAAB6a170)|
-| Polygon Testnet   | [0xb8ed7e349796c3c445d79185e2cd3209b2461700](https://polygonscan.com/address/0xb8ed7e349796c3c445d79185e2cd3209b2461700)|
-
 
 **PredictionMarket.sol Contracts**
 
@@ -85,8 +82,6 @@ Verified users delegate their voting rights to AI agents using biometric (World 
 | Ethereum Sepolia    | [0x3c20cac7efda2e897277c4cc1fe3b47fdae3471e](https://sepolia.etherscan.io/address/0x3c20cac7efda2e897277c4cc1fe3b47fdae3471e)|
 | CELO Mainnet   | [0xb8ed7e349796c3c445d79185e2cd3209b2461700](https://celoscan.io/address/0xb8ed7e349796c3c445d79185e2cd3209b2461700)|
 | CELO Testnet   | [0xb56f41D8f0401EAA135A3DBCA25fA38c26dA47a9](https://alfajores.celoscan.io/address/0xb56f41d8f0401eaa135a3dbca25fa38c26da47a9)|
-| Flow Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://evm-testnet.flowscan.io/address/0xD758A520B53D401577ec4b70Df30FeaaD32C8699)|
-| Polygon Testnet   | [0x2e9cf33dece4fe50283abbde02440a7daab6a170](https://polygonscan.com/address/0x2e9cf33dece4fe50283abbde02440a7daab6a170)|
 
 
 **VCGAuction.sol Contracts**
@@ -96,8 +91,6 @@ Verified users delegate their voting rights to AI agents using biometric (World 
 | Ethereum Sepolia    | [0x63511f7c84854354d0047fb3c6c790a01d0c89f6](https://sepolia.etherscan.io/address/0x63511f7c84854354d0047fb3c6c790a01d0c89f6)|
 | CELO Mainnet   | [0x89e0a255c7f70250fcad3dba5954a90a169b4983](https://celoscan.io/address/0x89e0a255c7f70250fcad3dba5954a90a169b4983)|
 | CELO Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://alfajores.celoscan.io/address/0x2e9cf33dece4fe50283abbde02440a7daab6a170)|
-| Flow Testnet   | [0x4AB6bB0302e767591e2CA464E375fc40561d9c0A](https://evm-testnet.flowscan.io/address/0x4AB6bB0302e767591e2CA464E375fc40561d9c0A)|
-| Polygon Testnet   | [0xd758a520b53d401577ec4b70df30feaad32c8699](https://polygonscan.com/address/0xd758a520b53d401577ec4b70df30feaad32c8699)|
 
 
 ### What's next for
