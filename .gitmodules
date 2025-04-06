@@ -1,3 +1,0 @@
-[submodule "backend/celestia-node"]
-	path = backend/celestia-node
-	url = https://github.com/celestiaorg/celestia-node
