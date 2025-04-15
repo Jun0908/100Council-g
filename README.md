@@ -31,59 +31,7 @@ This project proposes a system where citizens delegate their voting rights to AI
 
 **AI Agent Delegation & Secure Voting Architecture**
 
-Verified users delegate their voting rights to AI agents using biometric (World ID) or document-based (Self Protocol) identity verification. Agent personas are generated from Farcaster social data, stored as JSON on IPFS, and linked to ENS subdomains for persistent identity. These AI agents operate via a Next.js dashboard, interacting with smart contracts across chains like Ethereum, Celo, Polygon, Flow, and Rootstock. To protect voting integrity, private keys are managed server-side within a Trusted Execution Environment (TEE), using a secure infrastructure built with Docker, Express (TypeScript), and Goat SDK. This architecture enables scalable, trust-minimized governance powered by prediction markets and agent-based simulation.
-
-<img width="692" alt="Image" src="https://github.com/user-attachments/assets/b2907dc4-3877-4e85-9c7b-64e297f1f912" />
-
-### Tech Stack:
-
-## 🌐 Blockchain & Identity Infrastructure
-
-- [Celo](https://github.com/Jun0908/100Council/tree/main/backend/Server/celo): Mobile-first EVM-compatible blockchain enabling contract-based interactions with a focus on financial access and inclusion.
-
-- [World](https://github.com/Jun0908/100Council/tree/main/frontend/components/world): Biometric-based identity protocol (Worldcoin) used to verify users when delegating voting power to AI agents, ensuring Sybil resistance.
-
-- [Self Protocol](https://github.com/Jun0908/100Council/tree/main/frontend/components/selfProtocol): Passport-based decentralized ID system used to verify age and nationality before delegating voting rights to AI agents.
-
-- [ENS Durin Contract](https://etherscan.io/address/0xba9f0059500df81eb4ab8ccd16fd3df379ba7c57): A smart contract setup that enables onchain issuance and management of ENS subdomains on L2 networks using the Durin protocol.
-
-- [ENS Agent Identity](https://app.ens.domains/chachagpt.eth): Links ENS names to AI agent character profiles stored on IPFS, enabling decentralized identity and personality representation 
-
-
-  **Other**：
-- Phala Network: provides secure on-chain & off-chain computation via TEE, 
-- Farcaster API : Web scraping for AI agent personality creation
-- GoatSDK: nables dynamic AI agent behaviors
-- Pinata: offers decentralized storage through IPFS integration 
-- privy Wallet: Seamless wallet creation and authentication
-
-
-### Development
-
-**QuadraticVoting.sol Contracts**
-
-| contract                   |                                                                                                                   contract address |
-| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://etherscan.io/address/0x208f38670a2ef67e6c0a6579a10191fbd7a1b535)|
-| CELO Mainnet   | [0x1440a247071edde7e1016b18126163d805f98c31](https://celoscan.io/address/0x1440a247071edde7e1016b18126163d805f98c31)|
-| CELO Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://alfajores.celoscan.io/address/0xe2a548dacdbc942d659a523fd40335000c80064c)|
-
-**PredictionMarket.sol Contracts**
-
-| contract                   |                                                                                                                   contract address |
-| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0x3c20cac7efda2e897277c4cc1fe3b47fdae3471e](https://sepolia.etherscan.io/address/0x3c20cac7efda2e897277c4cc1fe3b47fdae3471e)|
-| CELO Mainnet   | [0xb8ed7e349796c3c445d79185e2cd3209b2461700](https://celoscan.io/address/0xb8ed7e349796c3c445d79185e2cd3209b2461700)|
-| CELO Testnet   | [0xb56f41D8f0401EAA135A3DBCA25fA38c26dA47a9](https://alfajores.celoscan.io/address/0xb56f41d8f0401eaa135a3dbca25fa38c26da47a9)|
-
-
-**VCGAuction.sol Contracts**
-
-| contract                   |                                                                                                                   contract address |
-| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0x63511f7c84854354d0047fb3c6c790a01d0c89f6](https://sepolia.etherscan.io/address/0x63511f7c84854354d0047fb3c6c790a01d0c89f6)|
-| CELO Mainnet   | [0x89e0a255c7f70250fcad3dba5954a90a169b4983](https://celoscan.io/address/0x89e0a255c7f70250fcad3dba5954a90a169b4983)|
-| CELO Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://alfajores.celoscan.io/address/0x2e9cf33dece4fe50283abbde02440a7daab6a170)|
+<img width="467" alt="Image" src="https://github.com/user-attachments/assets/4667be02-6e7c-493c-9c4e-3ebc9fd45a0c" />
 
 
 ### What's next for
